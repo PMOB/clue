@@ -1,3 +1,32 @@
+コントリビューティング
+======================
+
+## コントリする
+
+1. このリポジトリをForkする
+2. Fork先をクローンする
+3. ブランチを切ってコミット
+4. Pull Request発行する
+
+## オリジナルの変更を適用する
+
+1. [これ見て](https://help.github.com/articles/fork-a-repo/) オリジナルを upstream に設定
+2. [これ見て](https://help.github.com/articles/syncing-a-fork/) 更新適用
+    - `rebase` でもいいと思うよ
+
+## Pull Request(PR) を解消する
+
+このリポジトリはPRのマージにレビューが必須になっています。
+
+1. このリポジトリのPRsを開く
+2. 解消するPRのページを開く
+3. Files Changedのタブで変更を確認する
+4. Review Changesでレビューを行う
+    1. 通常のコメントはComment
+    2. マージに賛成する場合はApprove
+    3. ココチガウヨーはRequest Changes
+
+
 議論
 ====
 リポジトリに設置するリソースについての 追加/修正/削除 に関する議論は Issues を利用しておこなってください。
