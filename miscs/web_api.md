@@ -23,7 +23,12 @@ https://developer.yahoo.com/weather/
 がわかります。
 
 試しにcurlでクエリを飛ばしてデータを取得してみます。
-東京の woeid は 1118370 だったので、ここからスキーマの `item` のなかの `condition` フィールド、つまり現在の天気情報を取得します。
+
+> 東京の現在の天気情報がほしい
+
+としましょう。
+東京の [woeid](https://developer.yahoo.com/geo/geoplanet/guide/concepts.html#woeids) は 1118370 です。
+東京の気象データから、スキーマの `item` のなかの `condition` フィールド、つまり現在の天気情報を取得します。
 Yahoo! Weatherのデータベースは `weather.forecast` ですから、呼び出すクエリは
 `select itemcondition from weather.forecast where woeid=1118370`
 となります。
