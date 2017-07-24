@@ -1,7 +1,10 @@
 グループスタディルーム完全攻略メールテンプレート
 ==============
 
-MAILTO: `h-library@mrcl.dendai.ac.jp`
+グループスタディルームは、予約日の前日15:00まで予約を受け付けています。
+すげえ。
+
+MAILTO: `h-library@mrcl.dendai.ac.jp`  
 SUBTITLE: `グループスタディルーム利用申請`
 
 ```
